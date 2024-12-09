@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: insure-today-api
+  name: efrwegfwerg
   description: Insure Today - Best insurance for life
   labels:
     nodeVersion: node18.20.4
