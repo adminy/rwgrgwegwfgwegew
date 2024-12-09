@@ -1,0 +1,21 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: insure-today-api
+  description: Insure Today - Best insurance for life
+  labels:
+    nodeVersion: node18.20.4
+    category: insurance
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    aws.amazon.com/amazon-ecs-service-tags: component=example-local-adminy,environment=prod
+  tags:
+    - local
+    - adminy
+    - javascript
+spec:
+  type: service
+  lifecycle: production
+  owner: dev
+  system: insure-today
